@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+    width: 80%;
+    margin: 0 auto;
+    }
+
+#content {overflow: auto;}
+
+#header
+   
+li { 
+    margin: 3%;
+    display: inline;
+    padding: 0.5em 0;
+    color:white;
+    
+
+    }
+
+    #larbold{
+        font-size: 300%;
+        background-color: #4aaaa5;
+        border: 1px solid black;
+    }
+
+    #content{
+        width: 90%;
+        background-color: #e7e6e6;
+        border: 1px solid black;
+    }
+
+    #aboutme{
+        float:left;
+        margin :5%;
+        width: 85%;
+        background-color: white;
+        border: 1px solid black;
+        font-size: 250%;
+        color: #4aaaa5;
+    }
+
+    hr{
+        block-size: 2px;
+        background-color: grey;
+    }
+
+    #picture{
+       float:left;
+        margin: 5%;
+       
+    }
+    #moreaboutme{
+       
+        float:left;
+        font-size:50%;
+        color:rgb(139, 185, 162);
+    }
+
+    #picture1std
+    {
+    float:left;
+    border: 2px solid black;
+    }
+        
+    .sidebar
+    {
+        float:right;
+    }
+
+    .work{
+
+        float:left;
+    }
+
+    #clearfixhack{
+        content: "";
+        clear: both;
+        display:table;
+    }
+    footer{
+        
+        font-size: 80%;
+        background-color: #4aaaa5;
+        border: 2px solid black;
+        color:whitesmoke;
+        width: 90%
+    }
+    
+   
+
+
+@media screen and (max-width: 980px)
+    {
+     #aboutme{
+       background-color: purple;
+       font-size:100%;
+       }
+    }
+
+
+@media screen and (max-width: 768px)
+ {
+    #aboutme{
+        background-color: yellowgreen;
+        font-size:80%;
+        
+    } 
+ }
+
+ @media screen and (max-width: 640px)
+ {
+#aboutme{
+    background-color: red;
+    font-size:50%;
+    
+    }
+
+
+ }
+
+ 
+
+ 
